@@ -1,0 +1,18 @@
+#socialicons {
+  display: flex;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  float: left;
+}
+
+#socialicons img {
+  width: 200px;
+}
+
+/* @media screen and (max-width: 550px) {
+  #socialicons img {
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+} */

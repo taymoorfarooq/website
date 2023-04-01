@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#scrollup {
+  position: static;
+  display: flex;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  text-align: right;
+  float: right;
+}
+
+#scrollup img {
+  width: 58px;
+}
+
+#scrollup img:hover {
+  content: url(/public/arrowhover.png);
+}
+
+/* @media screen and (max-width: 550px) {
+  #scrollup {
+    display: none;
+  }
+} */
