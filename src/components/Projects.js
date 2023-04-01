@@ -1,3 +1,4 @@
+import {Link, useResolvedPath, useMatch} from "react-router-dom"
 import '../styles/Projects.css';
 
 export default function Projects() {
@@ -6,10 +7,10 @@ export default function Projects() {
     <div>
     <p id='mastheadtext'>Hi! I'm Taymoor.</p>
 
-    <a id='cover1' href='/'><img src='img2.png' alt='thing'></img></a>
-    <a id='cover2' href='/'><img src='img1.png' alt='thing'></img></a>
-    <a id='cover3' href='/'><img src='img3.png' alt='thing'></img></a>
-    <a id='cover4' href='/'><img src='img4.png' alt='thing'></img></a>
+    <Link id='cover1' to='/about'><img src='img2.png' alt='thing'></img></Link>
+    <Link id='cover2' to='/'><img src='img1.png' alt='thing'></img></Link>
+    <Link id='cover3' to='/'><img src='img3.png' alt='thing'></img></Link>
+    <Link id='cover4' to='/'><img src='img4.png' alt='thing'></img></Link>
     </div>
 
   )
