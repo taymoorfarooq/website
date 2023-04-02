@@ -7,25 +7,76 @@
   margin-right: 2.5%;
   margin-top: -1px;
   margin-bottom: 70px;
+  /* animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; */
 }
 
 #cover1 img {
   width: 47.25%;
   margin-left: 2.5%;
   margin-right: 0.25%;
+  /* animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; */
+}
+
+#cover2 img {
+  width: 47.25%;
+  margin-right: 2.5%;
+  margin-left: 0.25%;
+  /* animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; */
+}
+
+#cover3 img {
+  width: 47.25%;
+  margin-left: 2.5%;
+  margin-right: 0.25%;
+  /* animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; */
+}
+
+#cover4 img {
+  width: 47.25%;
+  margin-left: 0.25%;
+  margin-right: 2.5%;
+  /* animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; */
 }
 
 @media screen and (max-width: 825px) {
+  #mastheadtext {
+    font-size: 30px;
+    padding-right: 10%;
+    display: none;
+  }
+
   #cover1 img {
     width: 95%;
     margin-left: 2.5%;
     margin-right: 2.5%;
   }
 
-  #mastheadtext {
-    font-size: 30px;
-    padding-right: 10%;
-    display: none;
+  #cover2 img {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  #cover3 img {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  #cover4 img {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
   }
 }
 
@@ -34,44 +85,11 @@
   background: white;
 }
 
-#cover2 img {
-  width: 47.25%;
-  margin-right: 2.5%;
-  margin-left: 0.25%;
-}
-
-@media screen and (max-width: 825px) {
-  #cover2 img {
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+/* @keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
   }
-}
-
-#cover3 img {
-  width: 47.25%;
-  margin-left: 2.5%;
-  margin-right: 0.25%;
-}
-
-@media screen and (max-width: 825px) {
-  #cover3 img {
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+  100% {
+    opacity: 1;
   }
-}
-
-#cover4 img {
-  width: 47.25%;
-  margin-left: 0.25%;
-  margin-right: 2.5%;
-}
-
-@media screen and (max-width: 825px) {
-  #cover4 img {
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-  }
-}
+} */
