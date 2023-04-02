@@ -14,8 +14,8 @@ body {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  margin-right: 2.5%;
-  padding-bottom: 18px;
+  /* margin-right: 2.5%; */
+  /* padding-bottom: 18px; */
   top: 0;
   /* background: rgba(0, 0, 0, 0.9); */
 }
@@ -42,8 +42,8 @@ body {
 
 .nav img {
   width: 52px;
-  margin-top: 25px;
-  margin-right: 2.5%;
+  /* margin-top: 25px; */
+  /* margin-right: 2.5%; */
 }
 
 .nav img:hover {

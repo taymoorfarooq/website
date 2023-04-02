@@ -1,15 +1,7 @@
 import {Link, useResolvedPath, useMatch} from "react-router-dom"
-import { useEffect } from "react"
 import '../styles/Navbar.css'
 
 export default function Navbar() {
-    useEffect(() => {
-      const images = ["white.png", "blue.png"]
-      images.forEach((image) => {
-        const img = new Image()
-        img.src = image
-      })
-    }, [])
 
     return <nav className="nav">
         <ul id="leftmenu">
