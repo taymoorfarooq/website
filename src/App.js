@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import ScrollUp from "./components/ScrollUp"
 import Voyageur from "./components/Voyageur"
 import SocialIcons from "./components/SocialIcons";
+import PageNotFound from "./components/PageNotFound";
 
 
 import './styles/App.css'
@@ -18,7 +19,7 @@ function App() {
               <Route path="/" element={<Projects/>}/>
               <Route path="/about" element={<About/>}/>
               <Route path="/voyageur" element={<Voyageur/>}/>
-              <Route path="*" element={<Projects />} />
+              <Route path="*" element={<PageNotFound />} />
           </Routes>
       </div>
       <ScrollUp />
