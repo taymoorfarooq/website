@@ -5,7 +5,8 @@
   color: white;
   margin-left: 2.5%;
   margin-right: 2.5%;
-  margin-top: 20px;
+  margin-top: 60px;
+  margin-bottom: 100px;
 }
 
 #cover1 img {
@@ -19,6 +20,12 @@
     width: 95%;
     margin-left: 2.5%;
     margin-right: 2.5%;
+  }
+
+  #mastheadtext {
+    font-size: 30px;
+    padding-right: 10%;
+    display: none;
   }
 }
 

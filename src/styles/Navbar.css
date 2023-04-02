@@ -12,10 +12,10 @@ body {
   font-size: 18px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   list-style: none;
-  margin-right: 2.5%;
   top: 0;
+  margin-right: 2.5%;
+  height: 115px;
   /* background: rgba(0, 0, 0, 0.9); */
 }
 
