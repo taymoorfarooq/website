@@ -30,7 +30,8 @@
 }
 
 #cover1 img:hover {
-  content: url(/public/img2.png);
+  /* content: url(/public/img3.png); */
+  background: white;
 }
 
 #cover2 img {
