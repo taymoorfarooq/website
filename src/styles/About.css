@@ -24,13 +24,13 @@
 
 @media screen and (max-width: 900px) {
   #largetext {
-    font-size: 45px;
+    font-size: 30px;
   }
 }
 
 @media screen and (max-width: 900px) {
   #smalltext {
-    font-size: 21px;
+    font-size: 20px;
   }
 }
 

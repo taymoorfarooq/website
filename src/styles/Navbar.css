@@ -41,10 +41,8 @@ body {
 
 .nav img {
   width: 52px;
-  outline: 0;
 }
 
 .nav img:hover {
   content: url(/public/blue.png);
-  outline: 0;
 }
