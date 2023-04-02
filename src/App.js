@@ -16,6 +16,7 @@ function App() {
           <Routes>
               <Route path="/" element={<Projects/>}/>
               <Route path="/about" element={<About/>}/>
+              <Route path="*" element={<Projects />} />
           </Routes>
       </div>
       <ScrollUp />
