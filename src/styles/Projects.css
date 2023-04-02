@@ -1,3 +1,9 @@
+body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 #mastheadtext {
   font-family: Helvetica;
   font-size: 75px;
@@ -7,45 +13,30 @@
   margin-right: 2.5%;
   margin-top: -1px;
   margin-bottom: 70px;
-  /* animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards; */
 }
 
 #cover1 img {
   width: 47.25%;
   margin-left: 2.5%;
   margin-right: 0.25%;
-  /* animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards; */
 }
 
 #cover2 img {
   width: 47.25%;
   margin-right: 2.5%;
   margin-left: 0.25%;
-  /* animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards; */
 }
 
 #cover3 img {
   width: 47.25%;
   margin-left: 2.5%;
   margin-right: 0.25%;
-  /* animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards; */
 }
 
 #cover4 img {
   width: 47.25%;
   margin-left: 0.25%;
   margin-right: 2.5%;
-  /* animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards; */
 }
 
 @media screen and (max-width: 825px) {
@@ -85,11 +76,11 @@
   background: white;
 }
 
-/* @keyframes fadeInAnimation {
+@keyframes fadeInAnimation {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
   }
-} */
+}
