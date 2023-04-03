@@ -4,6 +4,8 @@ import '../styles/ScrollUp.css';
 export default function ScrollUp() {
 
   return(
-    <p id="scrollup"><a href='#top'><img src='arrow.png' onContextMenu={(e) => e.preventDefault()}></img></a></p>
+    <p id="scrollup"><a href='#top'><img src='arrow.png' onContextMenu={(e) => e.preventDefault()}
+        onMouseOver={e => (e.currentTarget.src = "arrowhover.png")}
+        onMouseOut={e => (e.currentTarget.src = "arrow.png")}></img></a></p>
   )
 }

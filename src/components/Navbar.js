@@ -10,7 +10,9 @@ export default function Navbar() {
         </ul>
 
         <CustomLink to="/">
-            <img src="white.png" alt="Logo" onContextMenu={(e) => e.preventDefault()}/>
+            <img src="white.png" alt="Logo" onContextMenu={(e) => e.preventDefault()}
+                onMouseOver={e => (e.currentTarget.src = "blue.png")}
+                onMouseOut={e => (e.currentTarget.src = "white.png")}/>
         </CustomLink>   
 
     </nav>
