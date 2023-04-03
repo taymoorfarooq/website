@@ -3,6 +3,8 @@ import '../styles/Links.css';
 
 export default function Links() {
 
+  document.title = "@tttaymoor"
+
   return(
       <div id="rectangle">
           

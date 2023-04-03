@@ -3,6 +3,8 @@ import '../styles/PageNotFound.css';
 
 export default function PageNotFound() {
 
+  document.title = "@tttaymoor"
+
   return(
       <div id="rectangle">
           <h1 id="errorcode">404</h1>
@@ -12,3 +14,4 @@ export default function PageNotFound() {
   )
 
 }
+

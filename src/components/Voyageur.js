@@ -3,6 +3,8 @@ import '../styles/Voyageur.css';
 
 export default function Voyageur() {
 
+  document.title = "@voyageurtravels"
+
   return(
       <div id="rectangle">
           
