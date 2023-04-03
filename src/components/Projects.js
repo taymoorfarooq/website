@@ -7,7 +7,8 @@ export default function Projects() {
 
   return(
     <div>
-    <p id='mastheadtext'>Hi! I'm Taymoor.</p>
+      <img id="mh" src="1824.gif"></img>
+    {/* <p id='mastheadtext'>Hi! I'm Taymoor.</p> */}
 
     <Link id='cover1' to='/voyageur'><img src='img2.png' alt='voyageur cover'
           onMouseOver={e => (e.currentTarget.src = "img1.png")}

@@ -4,6 +4,12 @@ body {
   animation-fill-mode: forwards;
 }
 
+#mh{
+  margin-left: 2.5%;
+  width: 95%;
+  margin-right: 2.5%;
+}
+
 #mastheadtext {
   font-family: Helvetica;
   font-size: 75px;
