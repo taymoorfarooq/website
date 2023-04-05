@@ -1,11 +1,27 @@
 body {
-  background-color: #000000;
+  background-color: #F4F4F4;
+  cursor:crosshair;
   /* overflow: hidden; */
 
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
+  
 }
 
 body.fade-out {
   opacity: 0;
+}
+
+.parallax {
+  /* The image used */
+  background-color: blue;
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -1,34 +1,19 @@
-import {Link, useResolvedPath, useMatch} from "react-router-dom"
+import {Link} from "react-scroll"
 import '../styles/Navbar.css'
 
 export default function Navbar() {
 
     return <nav className="nav">
         <ul id="leftmenu">
-            <CustomLink to="/">PROJECTS</CustomLink>
-            <CustomLink to="/about">ABOUT</CustomLink>
+          <Link to="masthead" spy={true} smooth={true} offset={-250} duration={1000}>TAYMOOR FAROOQ</Link>
         </ul>
 
-        <CustomLink to="/">
-            <img src="white.png" alt="Logo" onContextMenu={(e) => e.preventDefault()}
-                onMouseOver={e => (e.currentTarget.src = "blue.png")}
-                onMouseOut={e => (e.currentTarget.src = "white.png")}/>
-        </CustomLink>   
+        <ul id="rightmenu">
+          <Link to="projects" spy={true} smooth={true} offset={-110} duration={1000}>PROJECTS</Link>
+          <Link to="about" spy={true} smooth={true} offset={830} duration={1000}>ABOUT</Link>
+          <Link to="contact" spy={true} smooth={true} offset={830} duration={1000}>CONTACT</Link>
+        </ul>
 
     </nav>
 }
-
-function CustomLink({ to, children, ...props }) {
-    const resolvedPath = useResolvedPath(to)
-    const isActive = useMatch({ path: resolvedPath.pathname, end: true })
-  
-    return (
-      <li className={isActive ? "active" : ""}>
-        <Link to={to} {...props}>
-          {children}
-        </Link>
-      </li>
-    )
-  }
-
   

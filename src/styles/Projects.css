@@ -1,116 +1,108 @@
+@font-face {
+  font-family: Orelo;
+  src: url(Orelo-SemiWide-Medium.ttf);
+}
+
+
 body {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
-#masthead-header {
+
+#projects {
+  display: flex;
+}
+
+#p1 {
+  height: 85vh;
+  width: 11.875%;
+  background-color: #D9D9D9;
   margin-left: 2.5%;
-  width: 95%;
-  margin-right: 2.5%;
-  margin-bottom: -0.4%;
-}
-
-#masthead-arrow-animation {
-  margin-left: 2.5%;
-  width: 95%;
-  margin-right: 2.5%;
 }
 
 
-#cover1 img {
-  width: 47.25%;
-  margin-left: 2.5%;
-  margin-right: 0.25%;
-  margin-top: 0.125%;
+#p2 {
+  height: 85vh;
+  width: 11.875%;
+  background-color: #CFCFCF;
 }
 
-#cover2 img {
-  width: 47.25%;
-  margin-right: 2.5%;
-  margin-left: 0.25%;
+#p3 {
+  height: 85vh;
+  width: 11.875%;
+  background-color: #C3C3C3;
 }
 
-#cover3 img {
-  width: 47.25%;
-  margin-left: 2.5%;
-  margin-right: 0.25%;
-  margin-top: 0.125%;
+#p4 {
+  height: 85vh;
+  width: 11.875%;
+  background-color: #B3B3B3;
 }
 
-#cover4 img {
-  width: 47.25%;
-  margin-left: 0.25%;
-  margin-right: 2.5%;
-
+#p5 {
+  height: 85vh;
+  width: 11.875%;
+  background-color: #A3A3A3;
 }
 
-#cover5 img {
-  width: 47.25%;
-  margin-left: 2.5%;
-  margin-right: 0.25%;
-  margin-top: 0.125%;
+#p6 {
+  height: 85vh;
+  width: 11.875%;;
+  background-color: #989898;
 }
 
-#cover6 img {
-  width: 47.25%;
-  margin-left: 0.25%;
-  margin-right: 2.5%;
+#p7 {
+  height: 85vh;
+  width: 11.875%;
+  background-color: #8A8A8A;
 }
+
+#p8 {
+  height: 85vh;
+  width: 11.875%;
+  background-color: #808080;
+}
+
+#p1:hover {
+  background-color: black;
+}
+
+#p2:hover {
+  background-color: black;
+}
+
+#p3:hover {
+  background-color: black;
+}
+
+#p4:hover {
+  background-color: black;
+}
+
+#p5:hover {
+  background-color: black;
+}
+
+#p6:hover {
+  background-color: black;
+}
+
+#p7:hover {
+  background-color: black;
+}
+
+#p8:hover {
+  background-color: black;
+}
+
 
 @media screen and (max-width: 825px) {
 
-  #masthead-header {
-    display: none;
-    /* margin-bottom: -1.5%; */
+
   }
 
-  #masthead-arrow-animation {
-    display: none;
-  }
-
-  #cover1 img {
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 1.25%;
-  }
-
-  #cover2 img {
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 1.25%;
-  }
-
-  #cover3 img {
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 1.25%;
-  }
-
-  #cover4 img {
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 1.25%;
-  }
-
-  #cover5 img {
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 1.25%;
-  }
-
-  #cover6 img {
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 1.25%;
-  }
-}
 
 @keyframes fadeInAnimation {
   0% {

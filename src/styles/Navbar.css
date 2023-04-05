@@ -26,12 +26,14 @@ body {
   margin-left: 2.5%;
   display: flex;
   gap: 25px;
+  font-size: 204x;
 }
 
 .nav a {
   color: inherit;
   text-decoration: none;
   font-family: Helvetica;
+  color: black;
 }
 
 .nav a:hover {

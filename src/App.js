@@ -3,27 +3,42 @@ import Navbar from './components/Navbar';
 import About from "./components/About";
 import Projects from "./components/Projects";
 import ScrollUp from "./components/ScrollUp"
-import Voyageur from "./components/Voyageur"
+import Masthead from "./components/Masthead";
 import SocialIcons from "./components/SocialIcons";
-import PageNotFound from "./components/PageNotFound";
-
+import Contact from "./components/Contact";
+import {Parallax, ParallaxLayer} from "@react-spring/parallax"
 
 import './styles/App.css'
+
 
 function App() {
   return (
       <>
-      <Navbar />
+
       <div className="container">
-          <Routes>
-              <Route path="/" element={<Projects/>}/>
-              <Route path="/about" element={<About/>}/>
-              <Route path="/voyageur" element={<Voyageur/>}/>
-              <Route path="*" element={<PageNotFound />} />
-          </Routes>
+
+      
+
+            <Navbar />
+
+            <Masthead />
+
+
+
+            <Routes>
+                <Route path="/" element={<Projects/>}/>
+                <Route path="*" element={<Projects />} />
+            </Routes>
+
+
+            <About />
+        <Contact />
+
+         
+     
       </div>
-      <ScrollUp />
-      <SocialIcons />
+      {/* <ScrollUp />
+      <SocialIcons /> */}
 
       </>
       

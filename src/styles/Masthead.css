@@ -1,0 +1,45 @@
+#masthead {
+    height: 80vh;
+    
+  }
+  
+  #mastheader {
+    padding-top: 8%;
+    color: black;
+    font-family: Orelo;
+    font-size: 128px;
+    letter-spacing: 1vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+    
+  }
+  
+  #mastheadparagraph {
+    color: black;
+    font-family: Helvetica;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: center;
+  }
+  
+  #button {
+    width: 135px;
+    height: 55px;
+    margin: auto;
+    background-color: black;
+    border-radius: 38px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  #button p {
+    font-size: 14px;
+    font-family: Helvetica;
+    color: white;
+    padding-top: 4%;
+  }
