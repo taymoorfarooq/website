@@ -19,6 +19,7 @@ export default function Projects() {
       </div>
       <div id="contact"></div>
 
+
     </div>
 
   )

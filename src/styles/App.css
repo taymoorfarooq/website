@@ -1,6 +1,6 @@
 body {
   background-color: #F4F4F4;
-  cursor:crosshair;
+  cursor: none;
   /* overflow: hidden; */
 
   opacity: 1;
@@ -12,16 +12,41 @@ body.fade-out {
   opacity: 0;
 }
 
-.parallax {
-  /* The image used */
+.inner-cursor {
+  position: fixed;
+  left: 10px;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  transform: translate(-50%, -50%);
   background-color: blue;
-
-  /* Full height */
-  height: 100%; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: width 0.5s, height 0.5s;
 }
+
+.inner-cursor.grow {
+  width: 15px;
+  height: 15px;
+  transition: width 0.5s, height 0.5s;
+}
+
+.outer-cursor {
+  position: fixed;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  transform: translate(-50%, -50%);
+  border: 1px solid blue ;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: 0.001s;
+}
+
+.outer-cursor.grow {
+  width: 50px;
+  height: 50px;
+  transition: width 0.5s, height 0.5s;
+}
+
