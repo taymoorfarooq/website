@@ -14,8 +14,8 @@ export default function Projects() {
             <div id="p4"></div>
             <div id="p5"></div>
             <div id="p6"></div>
-            <div id="p7"></div>
-            <div id="p8"></div>
+            {/* <div id="p7"></div>
+            <div id="p8"></div> */}
       </div>
       <div id="contact"></div>
 

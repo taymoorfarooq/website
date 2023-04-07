@@ -1,11 +1,6 @@
 body {
   background-color: #F4F4F4;
   cursor: none;
-  /* overflow: hidden; */
-
-  opacity: 1;
-  transition: opacity 0.3s ease-in-out;
-  
 }
 
 body.fade-out {
@@ -19,7 +14,7 @@ body.fade-out {
   height: 10px;
   display: flex;
   transform: translate(-50%, -50%);
-  background-color: blue;
+  background-color: orangered;
   border-radius: 50%;
   pointer-events: none;
   transition: width 0.5s, height 0.5s;
@@ -38,7 +33,7 @@ body.fade-out {
   height: 40px;
   display: flex;
   transform: translate(-50%, -50%);
-  border: 1px solid blue ;
+  border: 1px solid orangered ;
   border-radius: 50%;
   pointer-events: none;
   transition: 0.001s;
