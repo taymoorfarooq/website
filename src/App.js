@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Masthead from './components/Masthead';
 import Contact from './components/Contact';
+import { Parallax, ParallaxLayer } from "@react-spring/parallax"
 import './styles/App.css';
 
 function App() {
@@ -48,18 +49,12 @@ function App() {
     <>
       <div className="container">
         <Navbar />
-        <div id="mdiv" className="panels">
-          <Masthead />
-        </div>
-        <div id="pdiv" className="panels">
-          <Routes>
+        <Masthead />
+        <Routes>
             <Route path="/" element={<Projects />} />
             <Route path="*" element={<Projects />} />
-          </Routes>
-        </div>
-        <div id="cdiv" className="panels">
-          <Contact />
-        </div>
+        </Routes>
+        <Contact />
       </div>
     </>
   );
