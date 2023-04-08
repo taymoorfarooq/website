@@ -30,16 +30,16 @@ export default function Masthead() {
   return (
 
     <div id="mastcon">
-      <div id="masthead" style={{ opacity }}>
-        {/* <h1 id="mastheader">TAYMOOR</h1> */}
-        <p id="mastheadparagraph">
-        I'm Taymoor, a Toronto-based artist studying Computational Cognition at the University of Toronto      </p>
-        <div id="button">
-          <a href="youtube.com">
-            <p>SAY HI!</p>
-          </a>
-        </div>
+    <div id="masthead" style={{ opacity }}>
+      {/* <h1 id="mastheader">TAYMOOR</h1> */}
+      <p id="mastheadparagraph">
+      I'm Taymoor, a Toronto-based artist studying Computational Cognition at the University of Toronto      </p>
+      <div id="button">
+        <a href="youtube.com">
+          <p>SAY HI!</p>
+        </a>
       </div>
+    </div>
     </div>
   );
 }

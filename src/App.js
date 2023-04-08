@@ -48,15 +48,11 @@ function App() {
     <>
       <div className="container">
         <Navbar />
-
-        <div id="navi"> <Routes>
-            <Route path="/" element={<Projects />} />
-            <Route path="*" element={<Projects />} />
-        </Routes>ba</div>
-        <div id="infoi">
         <Masthead />
-        </div>
-
+        <Routes>
+                <Route path="/" element={<Projects />} />
+                <Route path="*" element={<Projects />} />
+            </Routes>
 
         <Contact />
       </div>
