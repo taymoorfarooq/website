@@ -1,11 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
 .nav {
   position: sticky;
   color: white;
@@ -38,7 +30,7 @@ body {
 }
 
 .nav a:hover {
-  color: #163cf8;
+  /* color: #163cf8; */
   text-decoration: line-through;
 }
 

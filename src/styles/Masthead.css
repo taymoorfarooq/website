@@ -1,6 +1,11 @@
+#mastcon {
+  background-color: #F4F4F4;
+  height: 95vh;  
+}
+
 #masthead {
-    height: 92vh;   
-    background-color: #F4F4F4;
+    height: 95vh;   
+
   }
   
   #mastheader {
@@ -17,18 +22,20 @@
   #mastheadparagraph {
     color: black;
     font-family: Helvetica;
-    font-size: 20px;
+    font-size: 50px;
     display: flex;
-    justify-content: center;
-    margin-left: 50vh;
-    margin-right: 50vh;
-    text-align: center;    
+    justify-content: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-align: left;  
+    padding-top: 30vh;  
   }
   
   #button {
     width: 135px;
     height: 55px;
-    margin: auto;
+    /* margin: auto; */
+    margin-left: 2.5%;
     background-color: black;
     border-radius: 38px;
     display: flex;
